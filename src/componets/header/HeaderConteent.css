@@ -1,0 +1,39 @@
+.bg-img{
+    width: 100%;
+    height: auto;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.shopp-h1{
+    color: rgb(247, 231, 187);
+    font-size:  150px;
+    margin-left: 180px;
+    margin-top: 200px;
+}
+.shopp-h3{
+    font-size:  30px;
+    margin-left: 180px;
+    margin-top:-50px ;
+    color: bisque;
+}
+.vector{
+  width: 50px;
+  height: 60px;
+  margin-left: 200px;
+  margin-top: 100px;
+}
+
+.vector:hover{
+    background-color:rgb(204, 147, 61);
+}
+.ShopOurStori{
+   margin-left: 1400px;
+   margin-top: -500px;
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   font-size: 30px;
+   color: white;
+}
