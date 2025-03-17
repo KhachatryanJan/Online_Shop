@@ -1,12 +1,8 @@
-import vector from "../../images/Vector1.png"
-
+import shoppLog from "../../images/shopping-cart.svg"
 function ShopLogo(){
     return(
         <>
-       <h1 className="shopp-h1">Shoppe</h1>
-       <h3 className="shopp-h3">simple & elegant theme</h3>
-       
-        </>
+        <img src="https://assets.insightdesigns.com/wp-content/uploads/2022/11/Shopify-Certified-Partner-Logo.png" alt="logo" className="logo" /></>
     )
 }
 

@@ -1,39 +1,55 @@
-.bg-img{
+.HeaderContent{
+    display: flex;
+    flex-direction: row;
     width: 100%;
-    height: auto;
-    position:absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
+    height: 150px;
+    box-shadow: 1px 1px 10px 10px bisque;
+    border: 1px solid blanchedalmond;
+    background-color: blanchedalmond;
 }
-.shopp-h1{
-    color: rgb(247, 231, 187);
-    font-size:  150px;
-    margin-left: 180px;
-    margin-top: 200px;
-}
-.shopp-h3{
-    font-size:  30px;
-    margin-left: 180px;
-    margin-top:-50px ;
-    color: bisque;
-}
-.vector{
-  width: 50px;
-  height: 60px;
-  margin-left: 200px;
-  margin-top: 100px;
+.ShopOurStori {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 30px;
+    color: black;
 }
 
-.vector:hover{
-    background-color:rgb(204, 147, 61);
+.shop {
+    margin-top: 50px;
+    margin-left: 900px;
+    color: white;
 }
-.ShopOurStori{
-   margin-left: 1400px;
-   margin-top: -500px;
-   display: flex;
-   flex-direction: row;
-   gap: 20px;
-   font-size: 30px;
-   color: white;
+.our_stori{
+    color: white;
+    margin-top: 50px;
 }
+.shop:hover{
+    color: greenyellow;
+}
+.our_stori:hover{
+   color: greenyellow;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    margin-left: 380px;
+}
+.Languages{
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 30px;
+   
+    gap: 20px;
+}
+
+.Ru{
+    background-color: rgb(153, 233, 32);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+

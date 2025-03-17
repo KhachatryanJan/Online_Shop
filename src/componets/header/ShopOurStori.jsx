@@ -3,8 +3,8 @@
 function ShopOurStori(){
     return(
         <div className="ShopOurStori">
-        <p>Shop</p>
-        <p>Our Stori</p>
+        <div className="shop">Shop</div>
+        <div className="our_stori">Our stori</div>
         </div>
     )
 }

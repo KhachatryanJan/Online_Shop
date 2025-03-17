@@ -1,0 +1,49 @@
+.MainContent{
+    display: flex;
+    flex-direction: row;
+}
+.motto{
+    margin-top: 450px;
+    margin-left: 380px;
+    font-size: 50px;
+}
+.Product-box{
+    width: 700px;
+    height: 900px;
+    border: 1px solid greenyellow;
+    margin-top: 290px;
+    margin-left: 30px;
+    box-shadow: 1px 1px 10px 1px greenyellow;
+    
+}
+.Product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-shadow: 2px 5px bisque;
+    color: blanchedalmond;
+}
+.Brush{
+    width: 200px;
+    height: 200px;
+    margin-left: 60px;
+}
+.product-p{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+
+}
+.button-ava{
+    width: 100px;
+    height: 20px;
+}
+.pro{
+    display: flex;
+    flex-direction: row;
+}
+.img-info{
+    display: flex;
+    flex-direction: column;
+}
