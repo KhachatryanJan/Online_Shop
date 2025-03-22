@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom"
 
 
 function ShopOurStori(){
     return(
         <div className="ShopOurStori">
-        <div className="shop">Shop</div>
+        <Link to="/shopp"> <div className="shop">Shop</div></Link>
         <div className="our_stori">Our stori</div>
         </div>
     )

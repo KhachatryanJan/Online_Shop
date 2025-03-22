@@ -1,7 +1,5 @@
-.MainContent{
-    display: flex;
-    flex-direction: row;
-}
+
+
 .motto{
     margin-top: 450px;
     margin-left: 380px;
@@ -9,10 +7,10 @@
 }
 .Product-box{
     width: 700px;
-    height: 900px;
+    height: 1020px;
     border: 1px solid greenyellow;
-    margin-top: 290px;
-    margin-left: 30px;
+    margin-top: -300px;
+    margin-left: 1100px;
     box-shadow: 1px 1px 10px 1px greenyellow;
     
 }
@@ -23,6 +21,16 @@
     font-size: 50px;
     text-shadow: 2px 5px bisque;
     color: blanchedalmond;
+    margin-top: 100px;
+    
+}
+.Product1-p{
+    font-size: 18px;
+    color: black;
+    text-shadow: 2px 5px bisque;
+    margin-top: 40px;
+    margin-left:380px ;
+
 }
 .Brush{
     width: 200px;
@@ -46,4 +54,79 @@
 .img-info{
     display: flex;
     flex-direction: column;
+}
+.girl-ph2{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+.girl-ph3{
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.girl-ph4{
+    width: 200px;
+    height: 200px;
+    margin-left:350px ;
+    margin-top: -50px;
+}
+
+.MakeupProduct{
+    width: 80%; 
+    max-width: 1400px; 
+    height: auto; 
+    min-height: 600px; 
+    border: 1px solid bisque;
+    box-shadow: 5px 5px 15px greenyellow, -5px -5px 15px bisque;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px; 
+}
+.MakeupProductBoxOne-box{
+    display: flex;
+    flex-direction:column;
+    position: relative;
+    overflow: hidden;
+}
+.concealer{
+    width: 200px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, filter 0.3s ease;
+   
+}
+.concealer:hover{
+    transform: scale(1.1);
+    filter: brightness(80%);
+    
+}
+.name{
+    position: absolute;
+    top: 110px;
+    left: 45%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 34px;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.MakeupProductBoxOne-box:hover .name{
+    opacity: 1;
+}
+.MakeupProductBoxOne-box-info{
+    margin-left: 30px;
+}
+.box1{
+    display: flex;
+    flex-direction: row;
+}
+.MakeupProductBoxOne-box-info-p{
+    font-size: 10px;
 }
