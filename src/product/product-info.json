@@ -1,0 +1,72 @@
+
+[
+    {
+        "id":"1",
+        "name":"Concealer",
+        "infoProduct":"Concealers are used in makeup to cover skin imperfections such as blemishes, acne scars, or dark circles under the eyes to give the skin an even and clean appearance.",
+        "quantity":"6 units",
+        "price":"30.00",
+        "status":true,
+        "img":"https://www.maybelline.com/-/media/project/loreal/brand-sites/mny/americas/us/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment/new-images-2022/maybelline-face-instant-age-rewind-eraser-concealer-reno-122-041554546798-primary_760x1130.jpg?rev=70b97b02bc4044e59ac071c0ce9ef23c&cx=0&cy=0&cw=760&ch=1130&hash=C4D626C4B7A4D30DA5A973366CA9CA25"
+
+    },
+
+    {
+        "id":"2",
+        "name":"Mascara",
+        "infoProduct":"Mascara is a product used to make eyelashes appear longer and fuller.",
+        "quantity":"4 units",
+        "price":"25.00",
+        "status":true,
+        "img":"https://marscosmetics.in/cdn/shop/products/fabulash-mascara-607.jpg?v=1638452787"
+
+    },
+
+    {
+        "id":"3",
+        "name":"Bronzer",
+        "infoProduct":"Bronzer is a beauty product used to warm up the skin tone.",
+        "quantity":"4 units",
+        "price":"15.00",
+        "status":true,
+        "img":"https://static.beautytocare.com/cdn-cgi/image/width=1600,height=1600,f=auto/media/catalog/product//m/a/makeup-revolution-glow-splendour-bronzer-fair-15-5g.jpg"
+
+    },
+
+    {
+        "id":"4",
+        "name":"Foundation",
+        "infoProduct":"Bronzer is a beauty product used to warm up the skin tone.",
+        "quantity":"1 units",
+        "price":20.00,
+        "status":true,
+        "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1710775541-screenshot-2024-03-18-at-15-24-29-65f85cc5cb378.png?crop=0.728xw:0.910xh;0.133xw,0.0433xh&resize=980:*"
+
+    },
+
+    {
+        "id":"5",
+        "name":"Foundation",
+        "infoProduct":"Foundation can come in powder, cream, or liquid form and is used as a base or part of decorative makeup.",
+        "quantity":"3 units",
+        "price":"45.00",
+        "status":true,
+        "img":"https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1710775541-screenshot-2024-03-18-at-15-24-29-65f85cc5cb378.png?crop=0.728xw:0.910xh;0.133xw,0.0433xh&resize=980:*"
+
+    },
+
+    {
+        "id":"6",
+        "name":"Lipstick",
+        "infoProduct":"Shirt painting is a form of visual art created using paints or inks on shirts.",
+        "quantity":"1 units",
+        "price":"10.00",
+        "status":true,
+        "img":"data:image/jpeg;base64,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"
+
+    }
+    
+    
+    
+]
+
