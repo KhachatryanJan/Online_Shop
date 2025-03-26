@@ -1,0 +1,5 @@
+const CUSTOMER_COMMENT="@commitTypes/CUSTOMER_COMMENT"
+
+export{
+    CUSTOMER_COMMENT
+}

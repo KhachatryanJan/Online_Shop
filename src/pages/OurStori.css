@@ -1,0 +1,78 @@
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: orange;
+    border: 1px solid orange;
+    margin-top:5px;
+   
+}
+
+.OurStori {
+    width: 600px;
+    height: 500px;
+    border: 1px solid none;
+    margin: 100px auto;
+    padding: 20px;
+    box-shadow: 5px 5px 15px greenyellow, -5px -5px 15px bisque;
+}
+
+.My-info {
+    margin-left:160px;
+    font-size: 35px;
+    color: blanchedalmond;
+    text-shadow: 2px 2px greenyellow;
+}
+.Avatar_info{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.avatar{
+   margin-left: 5px;
+   font-size: 40px ;
+   margin-top: 10px;
+}
+.Avatar-name{
+    font-size: 24px;
+}
+.my-email{
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.email-p{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.email-p-info{
+    margin-top:35px ;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.insta-p-face{
+   margin-left: 40px;
+   margin-top: 20px;
+   display: flex;
+}
+.inst-face{
+   width: 60px;
+   height: 60px;
+}
+.insta_face{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.inst-face-name{
+   margin-left: 30px;
+   margin-top: 50px;
+   font-size: 24px;
+}

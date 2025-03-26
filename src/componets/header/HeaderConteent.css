@@ -1,4 +1,4 @@
-.HeaderContent{
+.HeaderContent {
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -7,6 +7,7 @@
     border: 1px solid blanchedalmond;
     background-color: blanchedalmond;
 }
+
 .ShopOurStori {
     display: flex;
     flex-direction: row;
@@ -20,36 +21,65 @@
     margin-left: 900px;
     color: white;
 }
-.our_stori{
+
+.our_stori {
     color: white;
     margin-top: 50px;
 }
-.shop:hover{
+
+.shop:hover {
     color: greenyellow;
 }
-.our_stori:hover{
-   color: greenyellow;
+
+.our_stori:hover {
+    color: greenyellow;
 }
-.logo{
+
+.logo {
     width: 150px;
     height: 150px;
     margin-left: 380px;
 }
-.Languages{
+
+
+
+.Languages {
     display: flex;
-    flex-direction: row;
-    width: 20px;
-    height: 30px;
-   
-    gap: 20px;
+    gap: 5px;
+    position: absolute;
+    margin-left: 1350px;
+    cursor: pointer;
 }
 
-.Ru{
-    background-color: rgb(153, 233, 32);
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+.ru {
+    font-size: 14px;
+    margin-left: 5px;
+    width: 29px;
+    height: 29px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+
 }
 
+.en {
+    font-size: 14px;
+    width: 29px;
+    height: 29px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 5px;
 
+}
+
+.activ {
+    background-color: greenyellow;
+    color: white;
+}

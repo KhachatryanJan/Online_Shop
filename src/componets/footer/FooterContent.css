@@ -7,12 +7,14 @@
     border: 1px solid blanchedalmond;
     background-color: blanchedalmond;
     margin-top: 150px;
+    
 }
 
 .icon{
  display: flex;
  flex-direction: row;
- margin-left: 800px;
+ margin: 100% auto;
+
  margin-top: 50px;
  gap: 20px;
  width: 30px;

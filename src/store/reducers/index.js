@@ -1,9 +1,10 @@
 import { combineReducers } from "redux";
 import productReducer from "./productinfo";
-
+import commentReducer from "./commitInfo";
 const reducers=combineReducers(
     {
-        product:productReducer
+        product:productReducer,
+        commit:commentReducer
     }
 )
 

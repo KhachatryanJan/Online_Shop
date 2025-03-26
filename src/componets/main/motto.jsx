@@ -1,11 +1,13 @@
+import { useTranslation } from "react-i18next"
 
 
 function Motto(){
+    const {t}=useTranslation()
     return(
         <>
         <div className="motto">
-            <p>Your makeup, your magic!</p>
-            <p>Glow up, girl!</p>
+            <p>{t("YourMakeupYourMagic!")}</p>
+            <p>{t("GlowUpGirl!")}</p>
         </div>
     
         </>

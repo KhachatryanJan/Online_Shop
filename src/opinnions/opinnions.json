@@ -1,0 +1,37 @@
+[
+    {
+        "id":"1",
+        "name":"Иван",
+        "lastName":"Петров",
+        "comment":"Very good",
+        "status":true
+    },
+    {
+        "id":"2",
+        "name":"Алексей",
+        "lastName":"Смирнов ",
+        "comment":"Its too bad",
+        "status":false    
+    },
+    {
+        "id":"3",
+        "name":"Сергей ",
+        "lastName":"Иванов",
+        "comment":"Its too bad",
+        "status":false
+    },
+    {
+        "id":"4",
+        "name":"Дмитрий ",
+        "lastName":"Кузнецов ",
+        "comment":"Very good",
+        "status":true
+    },
+    {
+        "id":"5",
+        "name":"Николай",
+        "lastName":"Соколов",
+        "comment":"Very good",
+        "status":true
+    }
+]
