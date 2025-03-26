@@ -6,6 +6,7 @@ function OpinnionsPage({name,lastName,comment}){
     
     return(
         <>
+        <h1>Commet pages  abaut the site</h1>
          <div>
           <p>{name}  {lastName}</p>
           <p>{comment}</p>

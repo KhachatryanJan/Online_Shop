@@ -36,7 +36,13 @@
     width: 200px;
     height: 200px;
     margin-left: 60px;
+    transition: transform 0.3s ease, filter 0.3s ease;
 }
+.Brush:hover{
+    transform: scale(1.1);
+    filter: brightness(80%);
+}
+
 .product-p{
     display: flex;
     flex-direction: column;
@@ -61,18 +67,35 @@
     border-radius: 20px;
     margin-left: 300px;
     margin-top: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.girl-ph2:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
 }
 .girl-ph3{
     width: 200px;
     height: 200px;
     border-radius: 5px;
     margin-left: 30px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.girl-ph3:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+    
 }
 .girl-ph4{
     width: 200px;
     height: 200px;
     margin-left:350px ;
     margin-top: -50px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.girl-ph4:hover {
+    transform: scale(1.1);
+    filter: brightness(80%);
+    
 }
 
 .MakeupProduct{
@@ -129,4 +152,14 @@
 }
 .MakeupProductBoxOne-box-info-p{
     font-size: 10px;
+}
+
+.butt{
+   width: 120px;
+   height: 20px;
+   border: none;
+   background-color: greenyellow;
+}
+.butt1{
+    background-color: brown;
 }
