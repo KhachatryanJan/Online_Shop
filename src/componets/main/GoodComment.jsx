@@ -19,4 +19,4 @@ function GoodCommit(){
 }
 
 
-export default GoodCommit
+export default GoodCommit 

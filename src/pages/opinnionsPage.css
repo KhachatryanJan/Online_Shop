@@ -1,0 +1,7 @@
+.good-bad{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 380px;
+    font-size: 25px;
+}

@@ -1,5 +1,5 @@
 
-/*import OpinnionsPage from "../../pages/OpinnionsPage"
+import OpinnionsPage from "../../pages/OpinnionsPage"
 
 import { useSelector } from "react-redux";
 import { commitSelectors } from "../../store/selectors";
@@ -12,4 +12,4 @@ function BadCommit(){
 }
 
 
-export default BadCommit*/
+export default BadCommit

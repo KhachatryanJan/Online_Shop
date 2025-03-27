@@ -7,15 +7,23 @@ import store from "./store";
 import OurStori from "./pages/OurStori";
 import LanguageProvider from "./context/LanguageContext";
 import OpinnionsPage from "./pages/OpinnionsPage";
+import Quantity from "./componets/main/Quantity";
+import GoodCommit from "./componets/main/GoodComment";
+import BadCommit from "./componets/main/BadComment";
 function App() {
   return (
     <><LanguageProvider>
       <Provider store={store}>
         <HeaderContent />
         <Routes>
-          <Route path="/" element={<MainContent />} />
+          <Route path="/" element={<MainContent />} >
+          <Route path="product" element={<Quantity/>}/>
+          </Route>
           <Route path="/OurStori" element={<OurStori/>} />
-          <Route path="/Opinnions" element={<OpinnionsPage/>}/>
+          <Route path="/Opinnions" element={<OpinnionsPage/>}>
+          <Route path="good" element={<GoodCommit/>}></Route>
+          <Route path="bad" element={<BadCommit/>}></Route>
+          </Route>
         </Routes>
         <FooterContent />
       </Provider>

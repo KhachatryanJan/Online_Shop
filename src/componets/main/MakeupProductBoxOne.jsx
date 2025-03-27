@@ -9,6 +9,7 @@ function MakeupProductBoxOne(pro){
     
     return(
         <>
+       
         <div className="box1">
         <div className="MakeupProductBoxOne-box">
          <img src={pro.img} alt="concealer"  className="concealer"/>
