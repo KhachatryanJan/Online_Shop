@@ -8,8 +8,9 @@ function Quantity(){
     
     const product= useSelector(productSelectors.getProduct)
     console.log(product);
+    const productList = product?.all || [];
     
-    return product.filter(p=>parseFloat(p.price)=== 20.00).map((pro)=>(  
+    return productList.filter(p=>p.status===true).map((pro)=>(  
     <MakeupProductBoxOne key={pro.id} {...pro}/>
     ))
    

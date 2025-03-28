@@ -1,3 +1,3 @@
 const getProduct=state => state.product
-
-export{getProduct}
+const getPro=state=>state.product?.drawable ?? {}
+export{getProduct,getPro}

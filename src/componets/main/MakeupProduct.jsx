@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, Outlet } from "react-router-dom"
 import MakeupProductBoxOne from "./MakeupProductBoxOne"
 
 function MakeupProduct(){
@@ -6,8 +6,8 @@ function MakeupProduct(){
         <>
         <Link to ="product"> <h1 className="prod">Product</h1></Link> 
         <div className="MakeupProduct">
-        
         <MakeupProductBoxOne/>
+       <Outlet/>
         </div>
         </>
     )

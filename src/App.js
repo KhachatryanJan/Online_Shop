@@ -10,6 +10,7 @@ import OpinnionsPage from "./pages/OpinnionsPage";
 import Quantity from "./componets/main/Quantity";
 import GoodCommit from "./componets/main/GoodComment";
 import BadCommit from "./componets/main/BadComment";
+import ProductReviews from "./pages/ProductReviews";
 function App() {
   return (
     <><LanguageProvider>
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<MainContent />} >
           <Route path="product" element={<Quantity/>}/>
           </Route>
+          <Route path="/product-rev/id" element={<ProductReviews/>}/>
           <Route path="/OurStori" element={<OurStori/>} />
           <Route path="/Opinnions" element={<OpinnionsPage/>}>
           <Route path="good" element={<GoodCommit/>}></Route>
