@@ -1,7 +1,76 @@
-.good-bad{
+.good-bad {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 30px;
     margin-left: 380px;
-    font-size: 25px;
+    
+    
+
+}
+.godBad{
+    color: greenyellow;
+    font-size: 35px;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    text-decoration: none ;   
+}
+
+.godBad:hover{
+    transform: scale(1.1);
+    filter: brightness(75%);
+}
+.comment-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    margin-left: 380px;
+}
+
+
+.comment-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.comment-text {
+    color: #333;
+}
+
+.CommetPages {
+    font-size: 55px;
+    margin-top: 100px;
+    margin-left: 700px;
+    font-family:serif;
+    color: blanchedalmond;
+    font-style: oblique;
+    text-shadow: 2px 3px beige;
+}
+
+@media (max-width: 768px) {
+    .good-bad {
+        margin-left: 20px;
+        justify-content: center;
+    }
+
+    .godBad {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .comment-box {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .CommetPages {
+        font-size: 30px;
+        margin-left: 20px;
+        text-align: center;
+    }
 }

@@ -1,21 +1,17 @@
 
-import { Link } from "react-router-dom";
+import {  Outlet } from "react-router-dom";
 import "./opinnionsPage.css"
-function OpinnionsPage({ name, lastName, comment }) {
-
-    console.log({ name, lastName, comment });
+import CommitUser from "./CommitUser";
+import GoodBadLink from "./GoodBadLink";
+function OpinnionsPage(){
 
     return (
         <>
-            <h1>Commet pages  abaut the site</h1>
-            <div className="good-bad">
-                <Link to="good">  <p>Good commit</p></Link>
-                <Link to="bad"  >  <p>Bad commit</p></Link>
-            </div>
-            <div>
-                <p>{name}  {lastName}</p>
-                <p>{comment}</p>
-            </div>
+        
+            <h1 className="CommetPages">Commet pages  abaut the site</h1>
+          
+            <GoodBadLink/>
+            <Outlet/>
         </>
     )
 }

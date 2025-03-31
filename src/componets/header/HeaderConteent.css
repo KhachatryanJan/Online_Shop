@@ -1,5 +1,6 @@
 .HeaderContent {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     width: 100%;
     height: 150px;
@@ -10,6 +11,7 @@
 
 .ShopOurStori {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     gap: 20px;
     font-size: 30px;
@@ -45,6 +47,7 @@
 
 .Languages {
     display: flex;
+    flex-wrap: wrap;
     gap: 5px;
     position: absolute;
     margin-left: 1450px;
@@ -86,4 +89,43 @@
 .activ {
     background-color: greenyellow;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .HeaderContent {
+        height: auto;
+        
+        padding: 10px;
+    }
+
+    .ShopOurStori {
+        font-size: 20px;
+        gap: 10px;
+    }
+
+    .shop, .our_stori {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .logo {
+        width: 120px;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .Languages {
+        margin-left: 0;
+        margin-top: 10px;
+        justify-content: center;
+        
+    }
+
+    .ru, .en {
+        width: 25px;
+        height: 25px;
+    }
 }

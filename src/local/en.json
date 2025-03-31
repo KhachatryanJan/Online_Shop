@@ -8,6 +8,11 @@
         "concalerInfo1":"Concealers are used in makeup to cover skin imperfections,",
         "concalerInfo2":"such as blemishes, acne scars, or dark circles under the eyes,",
         "concalerInfo3":"to give the skin an even and clean appearance.",
-        "Myinformation":"My information"
+        "Myinformation":"My information",
+
+        "Opinnions":"Opinions",
+         "FinishedProduct":"Finished Product",
+        "Available":"Available",
+        "OutStock":"Out of Stock"
     }
 }

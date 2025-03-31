@@ -2,14 +2,11 @@
     {
         "id": "1",
         "name": "Concealer",
-        "infoProduct": "Concealers are used in makeup to cover skin imperfections such as blemishes, acne scars, or dark circles under the eyes to give the skin an even and clean appearance.",
+        "infoProduct": "Concealers are used in makeup to cover skin  imperfections such as blemishes, ",
         "quantity": "6 units",
         "price": "30.00",
         "status": true,
-        " ProductReviews": [
-            "This product is amazing, I love it!",
-            "Not worth the price, very disappointed."
-        ],
+        " ProductReviews":"The quality exceeded my expectations, highly recommend.",
         "img": "https://www.maybelline.com/-/media/project/loreal/brand-sites/mny/americas/us/face-makeup/concealer/instant-age-rewind-eraser-dark-circles-concealer-treatment/new-images-2022/maybelline-face-instant-age-rewind-eraser-concealer-reno-122-041554546798-primary_760x1130.jpg?rev=70b97b02bc4044e59ac071c0ce9ef23c&cx=0&cy=0&cw=760&ch=1130&hash=C4D626C4B7A4D30DA5A973366CA9CA25"
     },
     {
@@ -51,7 +48,7 @@
     {
         "id": "5",
         "name": "Foundation",
-        "infoProduct": "Foundation can come in powder, cream, or liquid form and is used as a base or part of decorative makeup.",
+        "infoProduct": "Foundation can come in powder, cream, or liquid form and is used ",
         "quantity": "3 units",
         "price": "45.00",
         "status": true,

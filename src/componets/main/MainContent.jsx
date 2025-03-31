@@ -18,7 +18,7 @@ function MainContent(){
         <Motto/>
         <GirlBox/>
         <Product/>
-        
+       
         </div>
     )
 }

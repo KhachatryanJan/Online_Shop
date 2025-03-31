@@ -16,6 +16,7 @@
 }
 .Product{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     font-size: 50px;
@@ -45,6 +46,7 @@
 
 .product-p{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     margin-left: 60px;
 
@@ -56,10 +58,12 @@
 .pro{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .img-info{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .girl-ph2{
     width: 200px;
@@ -115,6 +119,7 @@
 }
 .MakeupProductBoxOne-box{
     display: flex;
+    flex-wrap: wrap;
     flex-direction:column;
     position: relative;
     overflow: hidden;
@@ -153,6 +158,7 @@
 .box1{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .MakeupProductBoxOne-box-info-p{
     font-size: 10px;
@@ -162,11 +168,82 @@
    width: 120px;
    height: 20px;
    border: none;
-   background-color: greenyellow;
+   background-color: brown;
 }
 .butt1{
-    background-color: brown;
+    background-color: greenyellow;
 }
 .prod{
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    color: burlywood;
+    
+}
+.pro-finpro{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
     margin-left: 380px;
+}
+.prod:hover{
+    transform: scale(1.1);
+    filter: brightness(75%);
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .motto {
+        margin-top: 200px;
+        margin-left: 20px;
+        font-size: 30px;
+    }
+
+    .Product-box {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .Product {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .Product1-p {
+        font-size: 14px;
+        margin-left: 20px;
+    }
+
+    .Brush {
+        width: 150px;
+        height: 150px;
+    }
+
+    .girl-ph2,
+    .girl-ph3,
+    .girl-ph4 {
+        width: 150px;
+        height: 150px;
+    }
+    .girl-ph2,
+    .girl-ph4{
+        margin-left:0px;
+    }
+    .MakeupProduct {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .concealer {
+        width: 150px;
+        height: 200px;
+    }
+
+    .prod {
+        font-size: 16px;
+    }
 }

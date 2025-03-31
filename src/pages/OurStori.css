@@ -76,3 +76,97 @@
    margin-top: 50px;
    font-size: 24px;
 }
+
+@media (max-width: 768px) {
+    .circle {
+        width: 40px;
+        height: 40px;
+    }
+
+    .OurStori {
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }
+
+    .My-info {
+        font-size: 28px;
+        margin-left: 20px;
+    }
+
+    .Avatar_info {
+        flex-direction: column;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .avatar {
+        font-size: 30px;
+        margin-left: 10px;
+    }
+
+    .Avatar-name {
+        font-size: 20px;
+    }
+
+    .my-email {
+        width: 50px;
+        height: 50px;
+    }
+
+    .email-p-info {
+        font-size: 18px;
+    }
+
+    .inst-face {
+        width: 50px;
+        height: 50px;
+    }
+
+    .inst-face-name {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+}
+
+/* Սեղաններ կամ մեծ էկրաններ */
+@media (min-width: 1024px) {
+    .OurStori {
+        width: 700px;
+        height: 600px;
+    }
+
+    .My-info {
+        font-size: 40px;
+        margin-left: 160px;
+    }
+
+    .Avatar_info {
+        gap: 30px;
+    }
+
+    .avatar {
+        font-size: 45px;
+    }
+
+    .Avatar-name {
+        font-size: 26px;
+    }
+
+    .my-email {
+        width: 70px;
+        height: 70px;
+    }
+
+    .inst-face {
+        width: 70px;
+        height: 70px;
+    }
+
+    .inst-face-name {
+        font-size: 26px;
+        margin-left: 30px;
+        margin-top: 50px;
+    }
+}
