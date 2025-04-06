@@ -12,7 +12,7 @@ import GoodCommit from "./componets/main/GoodComment";
 import BadCommit from "./componets/main/BadComment";
 import ProductReviews from "./pages/ProductReviews";
 import FinishedProduct from "./componets/main/FinishedProduct";
-import CommitUser from "./pages/CommitUser";
+
 function App() {
   return (
     <><LanguageProvider>

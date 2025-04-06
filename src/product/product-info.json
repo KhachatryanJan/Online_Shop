@@ -16,7 +16,7 @@
         "quantity": "4 units",
         "price": "25.00",
         "status": true,
-        " ProductReviews": [
+        "ProductReviews": [
             "The quality exceeded my expectations, highly recommend.",
             "The quality exceeded my expectations, highly recommend."
         ],
@@ -29,7 +29,7 @@
         "quantity": "4 units",
         "price": "15.00",
         "status": true,
-        " ProductReviews": [
+        "ProductReviews": [
             "Poor packaging, but the product works fine.",
             "Really good, does what it promises."
         ],
@@ -42,7 +42,7 @@
         "quantity": "1 units",
         "price": 20.00,
         "status": false,
-        " ProductReviews": "This product is very bad",
+        "ProductReviews": "This product is very bad",
         "img": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1710775541-screenshot-2024-03-18-at-15-24-29-65f85cc5cb378.png?crop=0.728xw:0.910xh;0.133xw,0.0433xh&resize=980:*"
     },
     {
@@ -52,7 +52,7 @@
         "quantity": "3 units",
         "price": "45.00",
         "status": true,
-        " ProductReviews": [
+        "ProductReviews": [
             "I regret buying this, it's not as described.",
             "Perfect for daily use, will buy more."
         ],
@@ -65,7 +65,7 @@
         "quantity": "1 units",
         "price": "10.00",
         "status": false,
-        " ProductReviews": [
+        "ProductReviews": [
             "Didn't work for me, I had high hopes.",
             "This product is amazing, I love it!"
         ],
@@ -78,7 +78,7 @@
         "quantity": "2 units",
         "price": 25.00,
         "status": true,
-        " ProductReviews": [
+        "ProductReviews": [
             "This product is amazing, I love it!",
             "Not worth the price, very disappointed."
         ],
